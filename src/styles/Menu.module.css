@@ -1,0 +1,162 @@
+.menuContainer {
+  height: 100%;
+  width: 38rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  position: absolute;
+  background-color: #252F46;
+  box-shadow: 2px 0px 46px -6px rgba(0,0,0,0.75);
+}
+
+.menuContainer > header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  padding-left: 2rem;
+  height: fit-content;
+  border-bottom: 1px solid #BEBDBD;
+}
+
+.signalTimeframe {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 59.3%;
+}
+
+.signalTimeframe > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  gap: 1rem;
+}
+
+.minuteOption > p > img {
+  position: relative;
+  left: 0.15rem;
+  top: 0.6rem;
+}
+
+.signalTimeframe > p, .signalTimezone > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  /* line-height: 135.5%; */
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+
+.signalTimeframe > span {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.4rem;
+  line-height: 135.5%;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+
+.checkboxContainer > p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.38rem;
+  line-height: 135.5%;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.01rem;
+}
+
+.signalTimezone {
+  display: flex;
+  flex-direction: column;
+  height: 59.4% !important;
+}
+
+.timezones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0rem;
+  padding-left: 0.5rem;
+  gap: 1rem;
+  width: 99%;
+  height: 88.6%;
+  overflow-y: scroll;
+  position: relative;
+  top: 14px;
+}
+
+.timezones::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.timezones::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+
+.timezones::-webkit-scrollbar-thumb {
+  background: #BEBDBD;
+  border-radius: 0.5rem;
+}
+
+.timezoneItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.checkboxContainer {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.checkboxContainer input ~ .checkmark {
+  background-color: #fff;
+}
+
+.checkboxContainer input:checked ~ .checkmark {
+  background: url('../images/checkbox.svg');
+  border: 1px solid #8F49DE;
+}
+
+.checkboxContainer > input[type = checkbox] {
+  appearance: none;
+}
+
+.checkmark {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid #8D8D8D;
+  border-radius: 0.4rem;
+}
+
+.menuContainer > div {
+  border-bottom: 1px solid #BEBDBD;
+  height: 9.9rem;
+  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 0.5rem;
+}
+
+.menuContainer > footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  padding-right: 2rem;
+  height: fit-content;
+}
+
+.menuContainer > footer > p {
+  display: flex;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.1rem;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}

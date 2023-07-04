@@ -1,0 +1,81 @@
+html, body {
+  font-size: 10px;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  font-smooth: always;
+  -webkit-text-stroke: 0.45px rgba(255, 255, 255, 0.1);
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffff;
+  background-color: #252F46;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: #8F49DE !important;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  left: 1.1rem !important;
+  border-color: #8F49DE !important;
+}
+
+.react-toggle-track {
+  width: 2.8rem !important;
+  height: 18px !important;
+  background-color: #C6C6C6 !important;
+}
+
+.react-toggle-thumb {
+  top: 0.2rem !important;
+  left: 0.3rem !important;
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+  border: none !important;
+}
+
+.react-toggle--focus .react-toggle-thumb {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.react-toggle-thumb:focus-visible {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Digital Numbers Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Digital Numbers Regular'), url('./fonts/DigitalNumbers-Regular.woff') format('woff');
+}

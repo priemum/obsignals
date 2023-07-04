@@ -1,0 +1,40 @@
+.modalContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color:  #252f46eb; */
+  background: rgba(15, 14, 14, 0.505);
+  backdrop-filter: blur(0.3rem);
+  position: absolute;
+  z-index: 2;
+}
+
+.modalContainer > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 61%;
+  height: 93%;
+}
+
+.modalContainer > span > img {
+  width: 100%;
+  height: 100%;
+  /* box-shadow: 2px 0px 46px -6px rgba(0,0,0,0.75); */
+}
+
+.modalContainer > span > button {
+  color: #fff;
+  position: relative;
+  top: 1.7rem;
+  right: -1.4rem;
+  border-radius: 50%;
+  background: #1b2232;
+}
+
+.modalContainer > span > button:hover {
+  cursor: pointer;
+}
