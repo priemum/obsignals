@@ -15,7 +15,7 @@ function WebSocketProvider({ children }){
   
   const formatDate = useFormatDate
 
-  const url = 'ws://api.agbot.com.br:9000/client'
+  const url = 'wss://obsignal.agbot.com.br/client'
   const token = 'AHteQGy0_P2fcvbMBuF5NGxYVFPlWq0m6hgDgW53'
   const timeframe = localStorage.getItem('timeframe')
   
