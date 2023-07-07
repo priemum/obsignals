@@ -83,3 +83,8 @@ mark {
   font-weight: normal;
   src: local('Digital Numbers Regular'), url('./fonts/DigitalNumbers-Regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'FontSpring Demo Regular';
+  src: url('./fonts/Fontspring-DEMO-artegra_sans-extended-alt-400-regular.otf') format('opentype');
+}
