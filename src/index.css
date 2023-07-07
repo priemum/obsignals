@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 html, body {
   font-size: 10px;
   width: 100%;
@@ -33,6 +32,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+mark {
+  background-color: transparent;
 }
 
 .react-toggle--checked .react-toggle-track {
