@@ -97,16 +97,14 @@ function App() {
                 </a>
               </div>
               <div className="boxInformation">
-                <p>INFORMATION</p>
                 <div className="information">
-                  <p><img src={shieldIcon} width={14} height={14} alt="Shield Icon" /> All brokers listed above have been carefully examined and considered safe.</p>
-                  <p>Don't have an account with any of the brokers listed above?</p>
+                  <p>Don't have an account?</p>
                   <ul>
                     <li>
                       <p>Click the broker button and create an account for free.</p>
                     </li>
                     <li>
-                      <p>Receive $10,000.00 in your demo/training account.</p>
+                      <p>Receive $10,000.00 in your demo account.</p>
                     </li>
                   </ul>
                 </div>
