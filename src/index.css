@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 html, body {
   font-size: 10px;
   width: 100%;
@@ -18,7 +19,7 @@ button:focus-visible {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility !important;
   font-smooth: always;
   -webkit-text-stroke: 0.45px rgba(255, 255, 255, 0.1);
@@ -35,12 +36,12 @@ code {
 }
 
 .react-toggle--checked .react-toggle-track {
-  background-color: #8F49DE !important;
+  background-color: #FF7A27 !important;
 }
 
 .react-toggle--checked .react-toggle-thumb {
   left: 1.1rem !important;
-  border-color: #8F49DE !important;
+  border-color: #FF7A27 !important;
 }
 
 .react-toggle-track {
