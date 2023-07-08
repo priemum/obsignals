@@ -266,9 +266,11 @@
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 150%;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06rem;
 }
 
 .information > ul > li:last-child > p > mark {
   color: #FF7A27;
+  font-weight: 600;
+  font-size: medium;
 }
