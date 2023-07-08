@@ -232,11 +232,10 @@
 }
 
 .information > p  {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.7rem;
   line-height: 150%;
-  
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .information > ul {
@@ -271,6 +270,11 @@
 
 .information > ul > li:last-child > p > mark {
   color: #FF7A27;
-  font-weight: 600;
+  font-weight: 500;
   font-size: medium;
+}
+
+.information > ul > li:first-child > p > mark {
+  font-weight: 600;
+  color: #fff;
 }
