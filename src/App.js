@@ -121,7 +121,7 @@ function App() {
                 <p>Don't have an account?</p>
                 <ul>
                   <li>
-                    <p>Click the broker button and create an account for free.</p>
+                    <p>Click the broker button and create an account for <mark>free.</mark></p>
                   </li>
                   <li>
                     <p>Receive <mark>$10,000.00</mark> in your demo account.</p>
